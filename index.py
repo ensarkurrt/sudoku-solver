@@ -29,6 +29,7 @@ chart = [
         0,0,0,0,8,0,0,7,9
     ],
 ]
+
 def solve():
     global chart
     for y in range(9):
@@ -64,8 +65,5 @@ def canUse(number,xLine,yLine):
     
     return True
     
-    
              
 solve()
-
-#print(canUse(1,2,2,exampleChart))
