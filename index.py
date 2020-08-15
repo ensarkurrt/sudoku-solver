@@ -45,7 +45,6 @@ def solve():
     input("More?")
 
 def canUse(number,xLine,yLine):
-    #for all x line
     global chart
     for a in range(9):
         if number == chart[yLine][a]:
