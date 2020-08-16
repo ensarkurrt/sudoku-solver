@@ -42,7 +42,7 @@ def solve():
                         chart[y][x] = 0
                 return
     print(np.matrix(chart))
-    input("More?")
+    input("")
 
 def canUse(number,xLine,yLine):
     global chart
